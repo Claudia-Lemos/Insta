@@ -1,0 +1,27 @@
+.post-list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid #dbdbdb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .post-list-items {
+        margin-bottom: 30px;
+    }
+}
+
+.post-profile-container {
+    display: flex;
+    align-items: center;
+    padding: 10px, 20px;
+}
+
+.post-profile-image {
+    width: 35px;
+    padding: 2px;
+    border-radius: 50px;
+    background-image: linear-gradient(314.35deg, #e20337 6.03%);
+}

@@ -1,0 +1,10 @@
+.bg-container {
+    background-color: whitesmoke;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    padding: 40px;
+}

@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-header {
+        border-bottom: 2px solid #dbdbdb
+    }
+}
+
+.nav-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-content {
+        width: 75%;
+    }
+}
+
+.logo-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.logo-button img {
+    width: 160px;
+}
+
+.menu-list-container {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu-list-container li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.menu-list-container li:hover {
+    transform: scale(1.1);
+    /* pop up to 10% */
+}
+
+.menu-icon {
+    color: #262626;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.menu-item {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.logout-button {
+    background-color: #4094ef;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 24px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
